@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='GBK'?>
+
+<!-- Config sanliping system -->
+<Configuration>
+
+    <!-- Config database connection -->
+    <DatabaseConnection>
+        <Database>QMYSQL</Database>
+        <Host>localhost</Host>
+        <DatabaseName>db_sanliping</DatabaseName>
+        <UserName>sanliping</UserName>
+        <Password>123456</Password>
+    </DatabaseConnection>
+
+</Configuration>

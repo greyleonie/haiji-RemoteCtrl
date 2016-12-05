@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Window_monitor</class>
+ <widget class="QMainWindow" name="Window_monitor">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>696</width>
+    <height>483</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>三里坪集控系统</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>696</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_file">
+    <property name="statusTip">
+     <string/>
+    </property>
+    <property name="title">
+     <string>文件(&amp;F)</string>
+    </property>
+    <addaction name="action_quit"/>
+   </widget>
+   <widget class="QMenu" name="menu_config">
+    <property name="title">
+     <string>设置(&amp;S)</string>
+    </property>
+    <addaction name="action_mote"/>
+    <addaction name="action_user"/>
+   </widget>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>报表(&amp;L)</string>
+    </property>
+    <addaction name="action_runlog"/>
+    <addaction name="action_statelog"/>
+   </widget>
+   <addaction name="menu_file"/>
+   <addaction name="menu_config"/>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_print">
+   <property name="text">
+    <string>打印(&amp;P)</string>
+   </property>
+   <property name="statusTip">
+    <string/>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+P</string>
+   </property>
+  </action>
+  <action name="action_user">
+   <property name="text">
+    <string>用户...</string>
+   </property>
+  </action>
+  <action name="action_quit">
+   <property name="text">
+    <string>退出(&amp;Q)</string>
+   </property>
+  </action>
+  <action name="action_mote">
+   <property name="text">
+    <string>现地站...</string>
+   </property>
+  </action>
+  <action name="action_runlog">
+   <property name="text">
+    <string>操作报表</string>
+   </property>
+  </action>
+  <action name="action_statelog">
+   <property name="text">
+    <string>状态报表</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
